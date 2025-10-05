@@ -13,5 +13,9 @@ namespace InterfaceDemo
             Console.WriteLine("Animal is eating");
 
         }
+        public virtual void MakeSound()
+        {
+            Console.WriteLine("Some generic animal sound");
+        }
     }
 }

@@ -7,6 +7,9 @@
             Animal animal = new Animal();
             Console.WriteLine("Hello, World!");
             animal.Eat();
+            Dog dog = new Dog();
+            dog.Eat();
+            dog.MakeSound();
             Console.ReadLine();
         }
     }
