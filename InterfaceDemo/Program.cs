@@ -10,6 +10,9 @@
             Dog dog = new Dog();
             dog.Eat();
             dog.MakeSound();
+            Cat cat = new Cat();
+            cat.Eat();
+            cat.MakeSound();
             Console.ReadLine();
         }
     }
